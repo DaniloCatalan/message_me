@@ -9,3 +9,6 @@ User.create(username: "Jhon", password:"password")
 User.create(username: "Peter", password:"password")
 User.create(username: "Mike", password:"password")
 User.create(username: "Mel", password:"password")
+
+Message.create(body: "Hi, I'm a new message", user: User.last)
+Message.create(body: "Hi, I'm other message", user: User.last)

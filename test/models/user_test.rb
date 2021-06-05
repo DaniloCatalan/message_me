@@ -30,4 +30,8 @@ class UserTest < ActiveSupport::TestCase
     assert_not @user.valid?
   end
 
+  # test "messages" do
+  #   assert_equal 1, @user.messages.size
+  # end
+
 end
